@@ -1,8 +1,4 @@
 #where things are
-source:        ./_source
-plugins:       ./_source/_plugins
-layouts:       ./_source/_layouts
-data_source:   ./_source/_data
 destination:   ./_deploy
 
 #outputting
