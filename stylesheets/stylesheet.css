@@ -252,6 +252,20 @@ form {
   margin-left: -1.5em;
 }
 
+aside h2 {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #474747;
+} 
+aside h2:before {
+  content: "//";
+  color: #9ddcff;
+  padding-right: 0.3em;
+  margin-left: -1.5em;
+}
+
 #main-content h3 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 18px;
@@ -368,6 +382,13 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+.meetup		{}
+.meetup	section#main-content {float: left; width: 60%;}
+.meetup aside	{float: right; width: 30%;}
+.meetup aside ul	{list-style: none; margin: 0; padding: 0;}
+.meetup aside ul li	{list-style: none; margin: 0; margin-bottom: 10px;}
+.meetup aside h3	{font-weight: bold; margin: 10px auto;}
 
 /* #Media Queries
 ================================================== */
